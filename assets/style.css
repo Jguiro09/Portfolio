@@ -64,7 +64,7 @@ section div p
 section > div, section ul
 {
     width: 100%;
-    padding: 3vh;
+    padding-left: 3vh;
 }
 
 main > div
@@ -102,14 +102,13 @@ main > div h2
 .project-card
 {
     margin: 0 1.5vw 1.5vh 0;
-    border: 2px solid #94d7da;
+    border: 4px solid #94d7da;
+    width: 47%;
 }
 
-
-.project-card-main
+#main-card
 {
-    border: 2px solid #94d7da;
-    display:none;
+    width: 97%
 }
 
 .project-card-main img
@@ -146,12 +145,8 @@ main > div h2
     width: 100%;
 }
 
-.contact-me li
-{
-}
-
 footer
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
