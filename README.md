@@ -4,7 +4,7 @@
 ## Table Of Contents
    [Deployed Website](#Deployed-Website)  
    [Primary Goal](#Primary-Goal)  
-   [Why Is A Responsive Website Important?](#Why-A-Responsive-Website-Is-Important)  
+   [Why A Responsive Website Is Important](#Why-A-Responsive-Website-Is-Important)  
    [Utilization of Flexbox](#Utilization-of-Flexbox)  
    [Creation of Website](#Creation-of-Website)  
    [Final Responsiveness](#Final-Responsiveness)  
