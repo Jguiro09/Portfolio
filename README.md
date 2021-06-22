@@ -4,7 +4,7 @@
 ## Table Of Contents
    [Deployed Website](#Deployed-Website)  
    [Primary Goal](#Primary-Goal)  
-   [Why Is A Responsive Website Important?](#Why-Is-A-Responsive-Website-Important?)  
+   [Why Is A Responsive Website Important?](#Why-A-Responsive-Website-Is-Important)  
    [Utilization of Flexbox](#Utilization-of-Flexbox)  
    [Creation of Website](#Creation-of-Website)  
    [Final Responsiveness](#Final-Responsiveness)  
@@ -18,7 +18,7 @@
 ## Primary Goal
 The goal of this project was to be able to make a portfolio website that we would be able to put our projects in. The catch was that the portfolio had to be a responsive website.
 
-## Why Is A Responsive Website Important?
+## Why A Responsive Website Is Important
 A responsive website will adjust its content to be able to fit on all forms of devices. Normally, this would not be a huge deal if everyone looked at websites on their computers, but thats not what the statistics say.
 
 [**According to perficient, "68.1% of all website visits in 2020 came from mobile devices"**](https://www.perficient.com/insights/research-hub/mobile-vs-desktop-usage)
