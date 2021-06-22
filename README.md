@@ -18,6 +18,71 @@ One way to make a website responsive is using "flexbox". Flex box allows you to 
 
 [**More Information on Flexbox Here**](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background)
 
+
+## Creation of Website
+
+
+### NOTE
+**The "responsive" changes are not shown completely here. If you would like to see that portion, please access my style.css and scroll to line 183.**
+
+### Understanding Units Used
+The following units were used inside my coding with (sourced from [W3 Schools](https://www.w3schools.com/cssref/css_units.asp)):
+```
+    1. VH =  Relative to 1% of the height of the viewport
+    2. VW = Relative to 1% of the width of the viewport
+    3. % = Relative to parent element
+```
+
+### **Header**
+#### Wireframe
+<img src = "./assets/photos/README/HeaderWireframe.png" alt = "Header Wireframe">
+
+#### HTML Applied
+<img src = "./assets/photos/README/HeaderHTML.png" alt = "Header HTML">
+
+#### CSS Applied
+<img src = "./assets/photos/README/HeaderCSS.png" alt = "Header CSS">
+
+### **Hero Image**
+#### Wireframe
+<img src = "./assets/photos/README/HeroWireframe.png" alt = "Hero Wireframe">
+
+#### HTML Applied
+<img src = "./assets/photos/README/HeroHTML.png" alt = "Hero HTML">
+
+#### CSS Applied
+<img src = "./assets/photos/README/HeroCSS.png" alt = "Header CSS">
+
+### **"About Me" Section**
+#### Wireframe
+<img src = "./assets/photos/README/AboutMeWireframe.png" alt = "About-Me Wireframe">
+
+#### HTML Applied
+<img src = "./assets/photos/README/AboutMeHTML.png" alt = "About-Me HTML">
+
+#### CSS Applied
+<img src = "./assets/photos/README/AboutMeCSS.png" alt = "About-Me CSS">
+
+### **"Work" Section**
+#### Wireframe
+<img src = "./assets/photos/README/WorkWireframe.png" alt = "Work Wireframe">
+
+#### HTML
+<img src = "./assets/photos/README/WorkHTML.png" alt = "Work HTML">
+
+#### CSS
+<img src = "./assets/photos/README/WorkCSS.png" alt = "Work CSS">
+
+### **"Contact Me" Section**
+#### Wireframe
+<img src = "./assets/photos/README/ContactMeWireframe.png" alt = "Contact-Me Wireframe">
+
+#### HTML
+<img src = "./assets/photos/README/ContactMeHTML.png" alt = "Contact-Me HTML">
+
+#### CSS Applied
+<img src = "./assets/photos/README/ContactMeCSS.png" alt = "Contact-Me CSS">
+
 ## Final Responsiveness
 Below, you will see how flexbox can changed my website based on the display resolution provided.
 

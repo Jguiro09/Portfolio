@@ -1,3 +1,5 @@
+
+/* Establishes the Headers size/color/ assigns it to flex (read more in my README about flex) */
 header
 {
     height: 10vh;
@@ -7,12 +9,7 @@ header
     justify-content: space-between;
 }
 
-header ul
-{
-    display: flex;
-    align-items: center;
-}
-
+/* Creates the "title" in the top right with your name inside of a box */
 header h1
 {
     background-color: #94d7da;
@@ -22,6 +19,15 @@ header h1
     color: #383838;
 }
 
+/* Centers the nav buttons in the top right and adds margin*/
+header ul
+{
+    display: flex;
+    align-items: center;
+    margin: 5vw;
+}
+
+/* styles the nav buttons and provides the disance and underline */
 header ul li a
 {
     color: #94d7da;
@@ -31,48 +37,14 @@ header ul li a
     text-underline-offset: 5px;
 }
 
-header ul
-{
-    margin: 5vw;
-}
-
-
-main section {
-    margin: 2vh 5vw 1vh 7vw;
-    display: flex;
-}
-
-section h1
-{
-    color: #445876;
-    font-size: 200%;
-    text-align: right;
-    display: block;
-    border-right: 2px solid #445876;
-    width: 20%;
-    padding-right: .7vw;
-}
-
-
-section div p
-{
-    display: inline-block;
-    line-height: 1.2;
-    width: 100%;
-}
-
-section > div, section ul
-{
-    width: 100%;
-    padding-left: 3vh;
-}
-
+/* Makes hero (or jumbotron) div relative and sets a height so we can manipulate the image inside */
 main > div
 {
     position: relative;
     height: 150px;
 }
 
+/* Styles the hero image so that it stretches across the top */
 main > div img
 {
     display: flex;
@@ -81,6 +53,7 @@ main > div img
     align-items: stretch;
 }
 
+/* Moves the "Welcome To My Page" text ontop of the jumbotron/hero on the right and offset from the corner */
 main > div h1
 {
     margin-right: 2vw;
@@ -92,6 +65,35 @@ main > div h1
     right: 0;
 }
 
+/* Adds margin to the main section (inclduing "about me", "work", "contact me"*/
+main section {
+    margin: 2vh 5vw 1vh 7vw;
+    display: flex;
+}
+
+/* Styles the titles of each section, Also applies the line dividing */
+section h1
+{
+    color: #445876;
+    font-size: 200%;
+    text-align: right;
+    display: block;
+    border-right: 2px solid #445876; /* Adds the line dividing */
+    width: 20%;
+    padding-right: .7vw;
+}
+
+/* Adjusts the "About Me" sections paragraph and adds line gap */
+section div p
+{
+    display: inline-block;
+    line-height: 1.2;
+    width: 100%;
+}
+
+/* Organizes the images for the "work" section, display flex so its adjustable, flex-wrap so it doesnt go off the screen, space-around so it keeps equal space all around */
+/* NOT ADJUSTING THE IMAGES THEMSELVES BUT THE DIV HOLDING THE IMAGES */
+
 .project-cards
 {
     display: flex;
@@ -99,19 +101,8 @@ main > div h1
     justify-content: space-around;
 }
 
-.project-card
-{
-    margin: 0 1.5vw 1.5vh 0;
-    border: 4px solid #94d7da;
-    width: 47%;
-    position: relative;
-}
-
-#main-card
-{
-    width: 97%
-}
-
+/* Adjusts all the images to their max width, sets max-height and max-width so there is no overflow, flex-shrink is used to make the first image shrink the most */
+/* Grayscale and transition is bringing color when hovered over by a pointer */
 .project-cards img
 {
     width: 100%;
@@ -122,11 +113,24 @@ main > div h1
     transition: all 0.5s ease;
 }
 
-.project-card img:hover
+/* Makes the "main" picture in work the biggest and on its own row */
+/* Again, leaving 3% width for margins */
+#main-card
 {
-    filter: grayscale(0%);
+    width: 97%
 }
 
+/* Creates the border for the images, applies a margin to keep the distance and position is relative so it adjust within the flexbox. */
+/* Width helps organize that there are two images per row, (47% because we use the extra 3% for the margins) */
+.project-card
+{
+    margin: 0 1.5vw 1.5vh 0;
+    border: 4px solid #94d7da;
+    width: 47%;
+    position: relative;
+}
+
+/* Adds the little titles for each work applcation */
 .project-card div
 {
     position: absolute;
@@ -136,12 +140,21 @@ main > div h1
     padding: 1vh;
 }
 
-
-.contact-me
+/* Adds the "hover" to your images so when you hover itll bring the grayscale */
+.project-card img:hover
 {
-    overflow: hidden;
+    filter: grayscale(0%);
 }
 
+
+/* Adjust the contact me padding which keeps the dividing line equal */
+section > div, section ul
+{
+    width: 100%;
+    padding-left: 3vh;
+}
+
+/* Moves the contact me items and positions them horizontally and centered. */
 .contact-me ul
 {
     display: flex;
@@ -150,6 +163,7 @@ main > div h1
     width: 100%;
 }
 
+/* Styles the contact me items */
 .contact-me ul li, .contact-me ul li a
 {
     text-decoration: underline;
@@ -158,29 +172,24 @@ main > div h1
     text-underline-offset: 5px;
 }
 
+/* Moves the footer to the center */
 footer
 {
     display: flex;
     justify-content: center;
 }
 
-@media screen and (max-width: 1068px)
+
+@media screen and (max-width: 1024px)
 {
+    /* Makes the main section a block which has everything stack on top of eachother (helps with phones) */
     main section
     {
         display: block;
     }
 
-    #main-card
-    {
-        width: 100%;
-    }
-
-    .project-cards, .project-card
-    {
-        width: 100%;
-    }
-
+    /* Makes the title words go above our section for vertical organization */
+    /* Width: 100% extends the border line on the bottom */
     section h1
     {
         border-right: none;
@@ -189,46 +198,30 @@ footer
         text-align: left;
     }
 
-    footer ul
+    /* Sets photo divs to 100% making it easier to see while scrolling */
+    .project-cards, .project-card, #main-card
     {
-        display: block;
+        width: 100%;
     }
 
-    header
-    {
-        display: flex;
-    }
-
-    header ul
-    {
-        display: flex;
-    }
-
-    header ul li a
-    {
-        border: none;
-        width: 45%;
-    }
-
+    /*stacks your list vertically*/
     .contact-me ul
     {
         display: block;
     }
 
+    /* centers the contact me and adds distance between both */
     .contact-me ul li
     {
         display: flex;
         justify-content: center;
-    }
-
-    .contact-me ul li
-    {
         margin: 2vh;
     }
 }
 
 @media screen and (max-width: 867px)
 {
+    /* Makes header a block so the items go vertical */
     header
     {
         display: block;
@@ -237,31 +230,23 @@ footer
         padding-bottom: .2vh;
     }
 
+    /* Makes nav buttons vertical */
     header ul
     {
         width: 80%;
         display: block;
-        justify-content: center;
     }
-
+    
+    /* Add some space between the nav buttons */
+    header ul li
+    {
+        padding-top: 1vh;
+    }
+    
+    /* Adds more space between the nav button */
     header ul li a
     {
         display: inline-block;
-        width: 90%;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
     }
 }
 
-@media screen and (max-width:500px)
-{
-    body section ul li > * 
-    {
-        width: 100%;
-    }
-
-    header ul li a 
-    {
-        width: 100%;
-    }
-}
