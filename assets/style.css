@@ -22,7 +22,7 @@ header h1
 {
     background-color: #94d7da;
     height: 5vh;
-    padding: .5vh 1vw 1vh 5vw; 
+    padding: .5vh 1vw 1vh 5vw;
     font-size: 250%;
     color: #383838;
 }
@@ -66,35 +66,34 @@ section div p
     width: 100%;
 }
 
-section > div, section ul 
+section > div, section ul
 {
     width: 100%;
     padding: 3vh;
 }
 
-.image
+main > div
 {
-    display: flex;
     width: 100%;
-    height: 15vh;
-    background-image: url(../assets/photos/jumbotron.png);
-    align-items: center;
-    justify-content:flex-end;
     position: relative;
-    background-size: cover;
+    height: 150px;
 }
 
-.image h2
+main > div img
 {
-    margin: 14vh 8vh 5vw 6vw;
+    width: 100%;
+    height: 100%;
+}
+
+main > div h2
+{
+    margin: 2vh 5vw 1vh 7vw;
     background-color: #94d7da;
     font-size: 200%;
     padding: 10px;
-}
-
-.about-me
-{
-    margin-right: 5vw;
+    position: absolute;
+    bottom: 1.5vh;
+    right: 0;
 }
 
 .project-cards
@@ -125,7 +124,7 @@ section > div, section ul
 }
 
 .project-cards img
-{ 
+{
     width: 100%;
     max-width: 100%;
     max-height: 100%;
@@ -137,7 +136,7 @@ section > div, section ul
     display: flex;
 }
 
-.contact-me 
+.contact-me
 {
     display: flex;
     overflow: hidden;
