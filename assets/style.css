@@ -42,10 +42,10 @@ main section {
     display: flex;
 }
 
-section h2
+section h1
 {
     color: #445876;
-    font-size: 300%;
+    font-size: 200%;
     text-align: right;
     display: block;
     border-right: 2px solid #445876;
@@ -81,11 +81,11 @@ main > div img
     align-items: stretch;
 }
 
-main > div h2
+main > div h1
 {
     margin-right: 2vw;
     background-color: #94d7da;
-    font-size: 200%;
+    font-size: 150%;
     padding: 10px;
     position: absolute;
     bottom: 1.5vh;
@@ -152,7 +152,6 @@ main > div h2
 
 .contact-me ul li, .contact-me ul li a
 {
-    text-decoration: none;
     text-decoration: underline;
     text-decoration-color: #445876;
     text-decoration-thickness: 3px;
@@ -165,3 +164,104 @@ footer
     justify-content: center;
 }
 
+@media screen and (max-width: 1068px)
+{
+    main section
+    {
+        display: block;
+    }
+
+    #main-card
+    {
+        width: 100%;
+    }
+
+    .project-cards, .project-card
+    {
+        width: 100%;
+    }
+
+    section h1
+    {
+        border-right: none;
+        border-bottom: 2px solid #445876;
+        width: 100%;
+        text-align: left;
+    }
+
+    footer ul
+    {
+        display: block;
+    }
+
+    header
+    {
+        display: flex;
+    }
+
+    header ul
+    {
+        display: flex;
+    }
+
+    header ul li a
+    {
+        border: none;
+        width: 45%;
+    }
+
+    .contact-me ul
+    {
+        display: block;
+    }
+
+    .contact-me ul li
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-me ul li
+    {
+        margin: 2vh;
+    }
+}
+
+@media screen and (max-width: 867px)
+{
+    header
+    {
+        display: block;
+        height: 100%;
+        padding-top: .2vh;
+        padding-bottom: .2vh;
+    }
+
+    header ul
+    {
+        width: 80%;
+        display: block;
+        justify-content: center;
+    }
+
+    header ul li a
+    {
+        display: inline-block;
+        width: 90%;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    body section ul li > * 
+    {
+        width: 100%;
+    }
+
+    header ul li a 
+    {
+        width: 100%;
+    }
+}
