@@ -21,14 +21,14 @@ One way to make a website responsive is using "flexbox". Flex box allows you to 
 ## Final Responsiveness
 Below, you will see how flexbox can changed my website based on the display resolution provided.
 
-**Above 1068px**
-<img>
+### **1068px**  
+<img src = "./assets/photos/README/Website1.png" alt = "1068 website size">
 
-**Above 867px**
-<img>
+### **867px**  
+<img src = "./assets/photos/README/Website2.png" alt = "867 website size">
 
-**Above 500px**
-<img>
+### **500px**  
+<img src = "./assets/photos/README/Website3.png" alt = "500 website size">
 
 ## Acceptance Criteria
 **Provided by UT Austin Coding Bootcamp**
@@ -43,7 +43,7 @@ Below, you will see how flexbox can changed my website based on the display reso
 ## Special Thanks
 **Click Name For Github:**  
 [Brandon Norsworthy](https://github.com/brandonnorsworthy): Helped with the usage of flexbox and responsive design.  
-[Christyn Garcia](https://github.com/christyns92): Helped bounce ideas and implement my images and "about me" section.
+[Christyn Garcia](https://github.com/christyns92): Helped bounce ideas and implement my images and "about me" section.  
 [Jessamyn McTwigan](https://github.com/jessamyn27): Helped with CSS adjustments and margin aligning.
 ## License
 Copyright (c) 2013 Mark Otto.
