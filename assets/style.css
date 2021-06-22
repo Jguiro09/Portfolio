@@ -59,7 +59,7 @@ section h2
 }
 
 
-section p
+section div p
 {
     display: inline-block;
     margin-left: 1vw;
@@ -137,7 +137,6 @@ section div
 .contact-me 
 {
     display: flex;
-    width:100%;
     overflow: hidden;
 }
 
@@ -152,4 +151,11 @@ section div
 
 .contact-me li
 {
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
