@@ -41,23 +41,27 @@ section
 {
     display: flex;
     margin-top: 3vh;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    margin-bottom: 1vh;
 }
 
 section h2
 {
     color: #445876;
-    display: inline-block;
-    margin-left: 15vw;
     font-size: 300%;
     text-align: right;
+    display: block;
+    border-right: 2px solid #445876;
+    width: 20%;
+    padding-right: .7vw;
 }
+
 
 section p
 {
     display: inline-block;
     margin-left: 1vw;
-    border-left: 2px solid #445876;
-    padding-left: 2vw;
     line-height: 1.2;
 }
 
@@ -66,7 +70,7 @@ section p
     display: flex;
     width: 100%;
     height: 15vh;
-    background-image: url(../assets/photos/Hero.png);
+    background-image: url(../assets/photos/jumbotron.png);
     align-items: center;
     justify-content:flex-end;
     position: relative;
@@ -86,3 +90,53 @@ section p
     margin-right: 5vw;
 }
 
+.project-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card
+{
+    margin: 2vh;
+    border: 2px solid #94d7da;
+}
+
+
+.project-card-main
+{
+    border: 2px solid #94d7da;
+}
+
+.project-card-main img
+{
+    display:flex;
+    width:100%;
+    height: 100%;
+    margin-right: 15vw;
+}
+
+.project-cards img
+{ 
+    align-items: stretch;
+    width: 100%;
+}
+
+.work
+{
+    display: flex;
+}
+
+.contact-me 
+{
+    display: inline-block;
+    width:100%;
+    overflow: hidden;
+}
+
+.contact-me h2
+{
+    text-align: left;
+    padding-right: 2vw;
+}
