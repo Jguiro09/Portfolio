@@ -62,14 +62,14 @@ section h2
 section div p
 {
     display: inline-block;
-    margin-left: 1vw;
     line-height: 1.2;
     width: 100%;
 }
 
-section div
+section > div, section ul 
 {
     width: 100%;
+    padding: 3vh;
 }
 
 .image
@@ -106,7 +106,7 @@ section div
 
 .project-card
 {
-    margin: 2vh;
+    margin: 0 1.5vw 1.5vh 0;
     border: 2px solid #94d7da;
 }
 
@@ -127,6 +127,9 @@ section div
 .project-cards img
 { 
     width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    flex-shrink: 0;
 }
 
 .work
@@ -140,11 +143,10 @@ section div
     overflow: hidden;
 }
 
-
 .contact-me ul
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -157,5 +159,4 @@ footer
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
